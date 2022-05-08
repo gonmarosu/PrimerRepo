@@ -17,7 +17,7 @@ public class Writer extends Cars {
         Double scanLar = sc.nextDouble();
         cars.setMedidaAlto(scanAl);
         cars.setMedidaLargo(scanLar);
-        System.out.println("Ingrese marca: " + scanM + "\n" + "Ingrese modelo: " + scanMo + "\n" + "Ingrese color: "
+        System.out.println("Ingrese marca de automovil: " + scanM + "\n" + "Ingrese modelo: " + scanMo + "\n" + "Ingrese color: "
                 + scanC + "\n" + "Ingrese medida de alto: " + scanAl + "\n" + "Ingese medida de largo: " + scanLar);
 
     }
